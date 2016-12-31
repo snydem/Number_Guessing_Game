@@ -1,11 +1,12 @@
 #include <stdio.h>
+#include <stdlib.h>
 #define true 1
 #define false 0
 
 int main(void){
 	int game;
 	float number, guess;
-	number = 42;
+	number = rand();
 	game = true;
 	printf("I am thinking of a number one through fifty, can you guess it?\n");
 	while (game == true) {
