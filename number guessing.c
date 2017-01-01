@@ -6,7 +6,7 @@
 int main(void){
 	int game;
 	float number, guess;
-	number = rand();
+	number = (rand() % 50) + 1;
 	game = true;
 	printf("I am thinking of a number one through fifty, can you guess it?\n");
 	while (game == true) {
